@@ -1,4 +1,4 @@
-package xyz.cybernerd404.turtlemintassignment.ui
+package xyz.cybernerd404.turtlemintassignment.ui.home
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,6 +10,7 @@ import xyz.cybernerd404.turtlemintassignment.adapter.MainAdapter
 import xyz.cybernerd404.turtlemintassignment.databinding.ActivityMainBinding
 import xyz.cybernerd404.turtlemintassignment.model.ApiResponseItem
 import xyz.cybernerd404.turtlemintassignment.network.Resouce
+import xyz.cybernerd404.turtlemintassignment.ui.issue.IssueActivity
 import xyz.cybernerd404.turtlemintassignment.utils.IssueListener
 
 class MainActivity : AppCompatActivity(), IssueListener {

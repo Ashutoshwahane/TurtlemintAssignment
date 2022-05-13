@@ -16,10 +16,10 @@
         android:theme="@style/Theme.TurtlemintAssignment"
         tools:targetApi="31">
         <activity
-            android:name=".ui.IssueActivity"
+            android:name=".ui.issue.IssueActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.home.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
